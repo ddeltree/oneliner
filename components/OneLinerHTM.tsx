@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { updateTextSize } from '../src/updateTextSize';
 
 /** A component whose inner text always spans a single line */
-export default function OneLiner({
+export default function LegacyOneLiner({
   children,
   className = '',
   style,
